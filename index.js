@@ -14,7 +14,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd', async (member) => {
     try {
         await member.send(`Hey ${member.user.username} ! Welcome to Falcon Discord server! Please read through the https://discord.com/channels/985679788020748328/1233215516273934440 before using the server, Enjoy your stay! 
-اهلاََ ${member.user.username}  ! مرحبا بك في سيرفر الدسكورد الرسمي الخاص ببندريتا اكس, يرجى قراءة جميع القوانين https://discord.com/channels/985679788020748328/1233215516273934440 قبل استخدام السيرفر, استمتع.`);
+اهلاََ ${member.user.username}  ! مرحبا بك في سيرفر الدسكورد الرسمي الخاص بفالكون, يرجى قراءة جميع القوانين https://discord.com/channels/985679788020748328/1233215516273934440 قبل استخدام السيرفر, استمتع.`);
         console.log(`تم إرسال رسالة ترحيب لـ ${member.user.tag}`);
     } catch (error) {
         console.error(`تعذر إرسال الرسالة لـ ${member.user.tag}:`, error);
