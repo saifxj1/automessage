@@ -11,6 +11,15 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
   }); // حاله البوت
 
+client.user.setPresence({
+    activities: [{
+      name: ' Falcon Goat',
+      type: ActivityType.Streaming,
+      url: 'https://www.twitch.tv/falcon'
+    }],
+    status: 'online'
+  });
+
 client.on('guildMemberAdd', async (member) => {
     try {
         await member.send(`Hey ${member.user.username} ! Welcome to Falcon Discord server! Please read through the https://discord.com/channels/985679788020748328/1233215516273934440 before using the server, Enjoy your stay! 
