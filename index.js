@@ -11,7 +11,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
   client.user.setPresence({
     activities: [{
-      name: ' Falcon Goat',
+      name: ' Welcome To Falcon',
       type: ActivityType.Streaming,
       url: 'https://www.twitch.tv/falcon'
     }],
